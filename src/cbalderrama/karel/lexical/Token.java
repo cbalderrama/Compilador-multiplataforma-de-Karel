@@ -19,4 +19,10 @@ public class Token {
         this.TokenPosition=tokenPosition;
         this.Value=value;
     }
+
+    @Override
+    public String toString() {
+        return "Token{" + "TokenType=" + TokenType + ", TokenPosition=" + TokenPosition + ", Value=" + Value + '}';
+    }
+    
 }

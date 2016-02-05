@@ -17,4 +17,9 @@ public class TextPosition {
         this.Line=line;
         this.Column=column;
     }
+
+    @Override
+    public String toString() {
+        return "TextPosition{" + "Line=" + Line + ", Column=" + Column + '}';
+    }
 }
